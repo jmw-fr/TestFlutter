@@ -14,6 +14,9 @@ class MenuBottom extends StatelessWidget {
           case 1:
             Navigator.pushNamed(context, '/calculator');
             break;
+          case 2:
+            Navigator.pushNamed(context, '/training');
+            break;
         }
       },
       items: const <BottomNavigationBarItem>[
@@ -24,6 +27,10 @@ class MenuBottom extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(Icons.monitor_weight),
           label: 'BMI',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.sports),
+          label: 'training',
         ),
       ],
     );

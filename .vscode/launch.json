@@ -2,10 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Flutter",
+            "name": "test_flutter",
             "type": "dart",
             "request": "launch",
-            "program": "lib/main.dart"
+            "program": "test_flutter/lib/main.dart"
+        },
+        {
+            "name": "Layout_flutter",
+            "type": "dart",
+            "request": "launch",
+            "program": "layout_flutter/lib/main.dart"
         },
     ]
 }

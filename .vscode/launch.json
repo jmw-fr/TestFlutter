@@ -13,5 +13,17 @@
             "request": "launch",
             "program": "layout_flutter/lib/main.dart"
         },
+        {
+            "name": "cine_test",
+            "type": "dart",
+            "request": "launch",
+            "program": "cine_test/lib/main.dart"
+        },
+        {
+            "name": "skeletton",
+            "type": "dart",
+            "request": "launch",
+            "program": "skeletton/lib/main.dart"
+        },
     ]
 }

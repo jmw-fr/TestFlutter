@@ -1,0 +1,6 @@
+{
+  "appTitle": "Ciné Test",
+  "@appTitle": {
+    "description": "Application de test Cinéma"
+  }
+}
